@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #C9FFFF;
+}
+header img{
+    width: 100%;
+    justify-content: center;
+}
+footer{
+    background-color: #C9FFFF;
+}
+footer img{
+    width: 100%;
+    justify-content: center;
+}
+
+#nome{
+    text-transform: capitalize;
+}
+
+button{
+    height: 75px;
+    width: 175px;
+    margin: 100px;
+}
+
+.header-container{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+}
+
+.pokemon{
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.tipos{
+    text-transform: capitalize;
+    font-weight: bold;
+    color: darkred;
+}
+
+.container{
+    background-color: #C9FFFF;
+}
